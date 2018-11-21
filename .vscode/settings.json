@@ -1,0 +1,7 @@
+{
+  "javascript": "javascriptreact",
+  "vue-html": "html",
+  "razor": "html",
+  "emmet.triggerExpansionOnTab": true,
+  "editor.snippetSuggestions": "top",
+}

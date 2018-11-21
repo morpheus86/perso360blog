@@ -7,10 +7,10 @@ class Dashboard extends Component {
     return (
       <div className='dahboard container'>
         <div className='row'>
-          <div classNane='col s12 m6'>
+          <div classNane='leftcolumn'>
             <ProjectList />
           </div>
-          <div classNane='col s12 m5 offset-m1'>
+          <div classNane='rightcolumn'>
             <Notification />
           </div>
         </div>
