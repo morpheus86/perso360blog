@@ -18,6 +18,7 @@ class SignIn extends Component {
     return (
       <form action="action_page.php" onSubmit={this.handleSubmit}>
         <div className="container">
+        <h1 className='grey-text text-darken-3'>Sign In</h1>
           <label htmlFor="uname"><b>Email</b></label>
           <input type="text" placeholder="Enter Email" id="email" required onChange={this.handleChange}/>
           <label htmlFor="psw"><b>Password</b></label>
