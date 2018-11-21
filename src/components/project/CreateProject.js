@@ -24,7 +24,7 @@ class CreateProject extends Component {
       </div>
       <div className='form-group'>
         <label htmlFor='content'>Project Content</label>
-        <textarea className='form-control' rows={7} placeHolder='type here' id='content' onChange={this.handleChange} />
+        <textarea className='form-control' rows={7} placeholder='type here' id='content' onChange={this.handleChange} />
       </div>
       <button type="submit">SignUp</button>
       </form>
