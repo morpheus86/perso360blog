@@ -5,13 +5,13 @@ import { LinkContainer } from 'react-router-bootstrap'
 const SignedInLinks = (props) => {
   return (
     <Nav pullRight>
-      <LinkContainer to='/'>
-        <NavItem eventKey={1}>
+      <LinkContainer to='/create'>
+        <NavItem>
           New Project
       </NavItem>
       </LinkContainer>
       <LinkContainer to='/'>
-        <NavItem eventKey={2}>
+        <NavItem>
           Log Out
       </NavItem>
       </LinkContainer>

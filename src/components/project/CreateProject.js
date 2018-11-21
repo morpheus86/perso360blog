@@ -16,7 +16,7 @@ class CreateProject extends Component {
   }
   render() {
     return (
-  <div class='container'>
+  <div className='container'>
       <form onSubmit={this.handleSubmit} className='white'>
       <div className='input-field'>
         <label htmlFor='title'>Title</label>

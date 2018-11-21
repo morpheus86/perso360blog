@@ -7,7 +7,7 @@ const SignedOutLinks = (props) => {
     <Nav pullRight>
       <LinkContainer to='/signup'>
         <NavItem>
-          New Project
+          Sign Up
       </NavItem>
       </LinkContainer>
       <LinkContainer to='/signin'>
