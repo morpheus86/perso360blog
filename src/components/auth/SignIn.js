@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 
 class SignIn extends Component {
-  // constructor(super) {
-  //   // this.state = {
-
-  //   // }
-  // }
   state = {
     email: '',
     password: ''
