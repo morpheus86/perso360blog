@@ -9,7 +9,7 @@ const Navigation = () => {
     <Navbar inverse collapseOnSelect>
       <Navbar.Header>
         <Navbar.Brand>
-         Welcome to Perso360Blog
+         Perso360Blog
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
@@ -22,7 +22,7 @@ const Navigation = () => {
           <NavItem to='/project/:id'>Project</NavItem>
           </LinkContainer>
           <LinkContainer to='/create'>
-          <NavItem>Create Project</NavItem>
+          <NavItem>New Project</NavItem>
           </LinkContainer>
           </Nav>
         <SigneInLinks />
