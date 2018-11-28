@@ -12,12 +12,11 @@ const rootReducer = combineReducers({
   project: projectReducer
 })
 export const middleware = compose(
-  applyMiddleware(logger, 
-  thunkMiddleware.withExtraArgument({getFirebase, getFirestore}),
+  applyMiddleware(logger, thunkMiddleware.withExtraArgument({getFirebase, getFirestore})),
   reduxFirestore(fbConfig),
   reactReduxFirebase(fbConfig)
   )
-)
+
 //compose allows us to add more store reducer (middleware) to our redux store in order to connect our firebase app to our app, the configuration
 //of our firebase is passed to both reduxFirestore and reactReduxFirebase in order for the {getFirebase, getFirestore }in our action to know to connect to that specific app
 

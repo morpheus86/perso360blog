@@ -5,9 +5,10 @@
 /.pnp
 .pnp.js
 secret.js
-# testing
-/coverage
+fbconfig.js
 
+# testing
+coverage
 # production
 /build
 
