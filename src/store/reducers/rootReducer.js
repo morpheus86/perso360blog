@@ -6,10 +6,12 @@ import logger from 'redux-logger'
 import {reduxFirestore, getFirestore} from 'redux-firestore'
 import {reactReduxFirebase, getFirebase} from 'react-redux-firebase'
 import fbConfig from '../../config/fbconfig'
+import { firestoreReducer } from 'redux-firestore'
 
 const rootReducer = combineReducers({
   auth: authReducer,
-  project: projectReducer
+  project: projectReducer,
+  firestore: firestoreReducer
 })
 export const middleware = compose(
   applyMiddleware(logger, thunkMiddleware.withExtraArgument({getFirebase, getFirestore})),

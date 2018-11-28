@@ -4,12 +4,12 @@ import 'firebase/auth'
 // Initialize Firebase
 
  var config = {
-  apiKey: "AIzaSyBNCtnND9dwp_J4QI6qnt5ySKm1MemOhW0",
+  apiKey: process.env.api,
   authDomain: "pero360blogs.firebaseapp.com",
   databaseURL: "https://pero360blogs.firebaseio.com",
   projectId: "pero360blogs",
   storageBucket: "pero360blogs.appspot.com",
-  messagingSenderId: "AIzaSyBNCtnND9dwp_J4QI6qnt5ySKm1MemOhW0"
+  messagingSenderId: process.env.messengerId
 };
 
 firebase.initializeApp(config);
