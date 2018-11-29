@@ -1,2 +1,4 @@
-fbconfig.js
+
 node_module
+.gitignore
+.env
